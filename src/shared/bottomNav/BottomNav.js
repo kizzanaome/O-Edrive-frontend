@@ -60,6 +60,7 @@ class BottomNav extends React.Component {
 
       <div class="ads_advert">
         <div class="top_links">
+          
           <div class="ads">
             <p class="ads_link">30 DAY GUARANTEE, FREE RETURNS</p>
             <p class="ads_sub_link">No hustle, No fuss</p>
@@ -74,14 +75,7 @@ class BottomNav extends React.Component {
             <p class="ads_link">30% OFF EVERYTHING ONLINE HERE</p>
             <p class="ads_sub_link">Use code verification</p>
           </div>
-          {/* <div class="divider"></div> */}
-          {/* <p>Follow us:</p>
-          <div class="top_left_links_icons">
-            <Link to="/"><img src={icon1} alt="logo" /></Link>
-            
-            <Link to="/"><img src={icon2} alt="logo" /></Link>
-            
-          </div> */}
+          
         </div>
       </div>
     )
