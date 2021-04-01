@@ -10,7 +10,7 @@
 
 .header {
   padding: 27px 0;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   z-index: 3;
   box-sizing: border-box;
@@ -24,6 +24,7 @@
   height: 100%;
   position: absolute;
   z-index: -1;
+  transition: all .7s;
 }
 
 .cover-show {

@@ -1,19 +1,18 @@
 import React from 'react';
 import Header from '../../shared/header/Header';
-import Body from '../../components/body/Body';
 import Footer from '../../shared/footer/Footer';
+import Body from '../../components/body/Body';
+import TopNav from '../../shared/topNav/TopNav';
+import BottomNav from '../../shared/bottomNav/BottomNav';
 
-class HomePage extends React.Component {
-
-  render() {
-    return (
-      <div>
-        <Header />
-        <Body />
-        <Footer />
-      </div>
-    )
-  }
-}
+const HomePage = () => (
+  <div>
+    <TopNav />
+    <Header />
+    <BottomNav />
+    <Body />
+    <Footer />
+  </div>
+);
 
 export default HomePage;

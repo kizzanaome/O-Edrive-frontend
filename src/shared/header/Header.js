@@ -25,7 +25,7 @@ class Header extends React.Component {
     style,
     hideNav: true
   }
-  myRef = React.createRef();
+  // myRef = React.createRef();
 
   openNavBar = () => {
     this.showNav = !this.showNav;
