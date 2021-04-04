@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import FooterNav from '../responsiveNav/FooterNav';
-import you from '../../assets/icons/youtube.png'
-import insta from '../../assets/icons/insta.png'
-import face from '../../assets/icons/face.png'
-import associate from '../../assets/images/association.png'
-import asso from '../../assets/images/asso.png'
-import tweet from '../../assets/icons/twitter.png'
-import ioni from '../../assets/icons/email.png'
+import you from '../../assets/images/icons/youtube.png'
+import insta from '../../assets/images/icons/insta.png'
+import face from '../../assets/images/icons/face.png'
+// import associate from '../../assets/images/association.png'
+// import asso from '../../assets/images/images/asso.png'
+import tweet from '../../assets/images/icons/twitter.png'
+import ioni from '../../assets/images/icons/email.png'
 import './footer.css'
 
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logos/logo.svg';
 
 
 class Footer extends React.Component {
@@ -44,8 +44,8 @@ class Footer extends React.Component {
           <div className='third'>
             <h3>Members of:</h3>
             <div className='icons'>
-              <img src={associate} className='footer__image' alt='youtube' />
-              <img src={asso} className='footer__image' alt='instagram' />
+              {/* <img src={asso} className='footer__image' alt='youtube' />
+              <img src={asso} className='footer__image' alt='instagram' /> */}
               <img src={face} className='footer__image' alt='facebook' />
             </div>
             <p>Nile Safari Lodge requires your feedback so help us by signing up for the newsletter</p>

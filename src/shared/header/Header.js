@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logos/logo.svg';
 // import CSS from 'csstype';
 import MobileNav from '../responsiveNav/MobileNav'
 import { Link } from 'react-router-dom';

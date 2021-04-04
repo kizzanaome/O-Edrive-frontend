@@ -2,7 +2,7 @@ import React from 'react';
 import './body.css'
 
 
-class Footer extends React.Component {
+class Body extends React.Component {
 
   render() {
     return (
@@ -107,4 +107,4 @@ The above list is not comprehensive. There are literally hundreds of ways the Ra
 
 }
 
-export default Footer;
+export default Body;

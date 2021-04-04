@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './topnav.css';
 import phone from '../../assets/images/icons/phone.svg';
 import ugflag from '../../assets/images/icons/ugflag.svg';
@@ -95,6 +95,8 @@ class TopNav extends React.Component {
           <p class="policy_link">Reviews</p>
           <div class="divider"></div>
           <p class="policy_link">Return Policy</p>
+          <div class="divider"></div>
+          <p class="policy_link"><Link to="/sign_up">Sign Up</Link></p>
           {/* <div class="divider"></div> */}
           {/* <p>Follow us:</p>
           <div class="top_left_links_icons">
