@@ -2,58 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import './bottomnav.css';
 
-
-const style = {
-  width: '0',
-  height: '100%',
-  position: 'fixed',
-  zIndex: 1,
-  left: 0,
-  top: 0,
-  backgroundColor: '#000',
-  overflowX: 'hidden',
-  transition: "all 0.5s ease 0s",
-}
-
 class BottomNav extends React.Component {
-
-  showNav = false;
-  state = {
-    style,
-    hideNav: true
-  }
-  myRef = React.createRef();
-
-  openNavBar = () => {
-    this.showNav = !this.showNav;
-    this.setState({
-      style: {
-        width: this.showNav ? '100%' : '0',
-        height: '100%',
-        position: 'fixed',
-        zIindex: 1,
-        left: 0,
-        top: 0,
-        backgroundColor: '#000',
-        overflowX: 'hidden',
-        transition: "all 0.5s ease 0s",
-      },
-      showNav: true
-    })
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  handleScroll = () => {
-    let scrollPosition = window.pageYOffset;
-    if (scrollPosition > 775) {
-      this.setState({ hideNav: false });
-    } else {
-      this.setState({ hideNav: true });
-    }
-  }
 
   render() {
     return (

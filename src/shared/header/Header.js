@@ -63,7 +63,7 @@ class Header extends React.Component {
       <div className={this.state.hideNav ? 'hide header' : ' header show'}>
         <div className={this.state.hideNav ? 'cover cover-show' : 'cover cover-hide'}></div>
         <div className='nav'>
-          <Link to="/"><img src={logo} alt="logo" /></Link>
+          <Link to="/"><img src={logo} alt="logo" className="main_logo" /></Link>
 
           <div className='menu' onClick={this.openNavBar}>
             <div className='bar half start'></div>
@@ -76,7 +76,7 @@ class Header extends React.Component {
           <button onClick={this.openNavBar} className='close'>&times;</button>
 
           <div className="overlay__links">
-            <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
+            <Link to="/"><img className="main_logo" src={logo} alt="logo" /></Link>
             <Link to="/">Home</Link>
             <Link to="/activities">Activities</Link>
             <Link to="/accommodate">Accommodation</Link>

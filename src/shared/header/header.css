@@ -9,7 +9,7 @@
 }
 
 .header {
-  padding: 27px 0;
+  padding: 17px 0;
   /* position: absolute; */
   width: 100%;
   z-index: 3;
@@ -44,9 +44,9 @@
   align-items: center;
 }
 
-.header .nav .logo {
+.header .nav .main_logo {
   cursor: pointer;
-  width: 120px;
+  height: 45px;
 }
 
 .header .nav .menu {
@@ -79,7 +79,7 @@
     width: 85%;
   }
 
-  .header .nav .logo {
+  .header .nav .main_logo {
     width: 90px;
   }
 
