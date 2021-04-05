@@ -1,19 +1,24 @@
 import React from 'react';
+
 import Header from '../../shared/header/Header';
 import Footer from '../../shared/footer/Footer';
+import TopNav from '../../shared/navBar/TopNav';
+import BottomNav from '../../shared/navBar/BottomNav';
+
+import SliderSection from '../../components/body/slider/SliderSection';
 import Body from '../../components/body/text/Body';
-import TopNav from '../../shared/topNav/TopNav';
-import BottomNav from '../../shared/bottomNav/BottomNav';
+
 
 const HomePage = () => (
   <div>
-    {/* <div class="main-content">
+    {/* <div className="main-content">
 
-      <div class="page-content">
-        <div class="container-fluid"> */}
+      <div className="page-content">
+        <div className="container-fluid"> */}
     <TopNav />
     <Header />
     <BottomNav />
+    <SliderSection />
     <Body />
     <Footer />
     {/* </div>

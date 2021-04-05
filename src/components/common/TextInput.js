@@ -37,11 +37,11 @@ class TextInput extends React.Component {
       //   </div>
       // </div>
 
-      <div class="mb-3">
-        <label class="visually-hidden" for="specificSizeInputGroupUsername">{this.props.label}</label>
-        <div class="input-group">
-          <div class="input-group-text">
-            <img src={email} alt="" class="" />
+      <div className="mb-3">
+        <label className="visually-hidden" for="specificSizeInputGroupUsername">{this.props.label}</label>
+        <div className="input-group">
+          <div className="input-group-text">
+            <img src={email} alt="" className="" />
           </div>
           <input
             id="specificSizeInputGroupUsername"

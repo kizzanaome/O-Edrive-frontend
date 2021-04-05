@@ -42,16 +42,16 @@ class PopLogin extends React.Component {
 
   render() {
     return (
-      // <div className="modal" id="modal_amount_input">
-      //     <div className="modal-dialog modal-dialog-centered" role="document">
+      // <div classNameName="modal" id="modal_amount_input">
+      //     <div classNameName="modal-dialog modal-dialog-centered" role="document">
 
 
-      //         <div className="modal-content modal-content-demo shadow">
-      //             <div className="modal-header">
-      //                 <h6 className="modal-title">{this.props.title}</h6>
-      //                 <button aria-label="Close" className="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+      //         <div classNameName="modal-content modal-content-demo shadow">
+      //             <div classNameName="modal-header">
+      //                 <h6 classNameName="modal-title">{this.props.title}</h6>
+      //                 <button aria-label="Close" classNameName="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
       //             </div>
-      //             <div className="modal-body">
+      //             <div classNameName="modal-body">
       //                 {this.state.info}
       //                 <form method="post" onSubmit={this.onConfirm}>
 
@@ -68,10 +68,10 @@ class PopLogin extends React.Component {
 
 
       //             </div>
-      //             <div className="modal-footer">
+      //             <div classNameName="modal-footer">
       //                 {!this.state.loading && <>
-      //                     <button className="btn ripple btn-primary" type="button" onClick={this.onConfirm}>{this.state.buttonLabel}</button>
-      //                     <button className="btn ripple btn-secondary" type="button" data-dismiss="modal">Close</button>
+      //                     <button classNameName="btn ripple btn-primary" type="button" onClick={this.onConfirm}>{this.state.buttonLabel}</button>
+      //                     <button classNameName="btn ripple btn-secondary" type="button" data-dismiss="modal">Close</button>
       //                 </>}
 
       //                 {this.state.loading && <ActivityLoader />}
@@ -85,81 +85,81 @@ class PopLogin extends React.Component {
 
 
 
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
+        <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div className="modal-content">
 
 
-            <div class="modal-header">
-              {/* <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> --> */}
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <div className="modal-header">
+              {/* <!-- <h5 className="modal-title" id="staticBackdropLabel">Modal title</h5> --> */}
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close">
               </button>
             </div>
 
 
 
 
-            <div class="modal-body">
+            <div className="modal-body">
 
 
-              <div class="card no-shadow w-50 m-auto">
+              <div className="card no-shadow w-50 m-auto">
 
-                <div class="card-body p-4">
+                <div className="card-body p-4">
 
-                  <div class="text-center">
-                    <h4 class="auth-head mb-3">Login to OikoExpress</h4>
-                    <p class="text-muted mb-0">Don't have an account? Create your <br /><a data-bs-toggle="modal"
-                      data-bs-target="#staticBackdrop" class="fw-medium text-primary pointer"> New User Account</a></p>
+                  <div className="text-center">
+                    <h4 className="auth-head mb-3">Login to OikoExpress</h4>
+                    <p className="text-muted mb-0">Don't have an account? Create your <br /><a data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop" className="fw-medium text-primary pointer"> New User Account</a></p>
                   </div>
 
 
-                  <div class="p-2">
+                  <div className="p-2">
 
                     <form action="index.html">
 
-                      <div class="">
-                        <label class="form-label text-primary" for="formname">Account :</label>
+                      <div className="">
+                        <label className="form-label text-primary" for="formname">Account :</label>
                       </div>
 
 
-                      <div class="mb-3">
-                        <label class="visually-hidden" for="specificSizeInputGroupUsername">Email Address</label>
-                        <div class="input-group">
-                          <div class="input-group-text">
-                            <img src={email} alt="" class="" />
+                      <div className="mb-3">
+                        <label className="visually-hidden" for="specificSizeInputGroupUsername">Email Address</label>
+                        <div className="input-group">
+                          <div className="input-group-text">
+                            <img src={email} alt="" className="" />
                           </div>
-                          <input type="text" class="form-control" id="specificSizeInputGroupUsername"
+                          <input type="text" className="form-control" id="specificSizeInputGroupUsername"
                             placeholder="Email Address" />
                         </div>
                       </div>
 
 
-                      <div class="mb-4">
-                        <label class="visually-hidden" for="specificSizeInputGroupUsername">Password</label>
-                        <div class="input-group">
-                          <div class="input-group-text">
-                            <img src={password} alt="" class="" />
+                      <div className="mb-4">
+                        <label className="visually-hidden" for="specificSizeInputGroupUsername">Password</label>
+                        <div className="input-group">
+                          <div className="input-group-text">
+                            <img src={password} alt="" className="" />
                           </div>
-                          <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Password" />
+                          <input type="text" className="form-control" id="specificSizeInputGroupUsername" placeholder="Password" />
                         </div>
                       </div>
 
 
-                      <div class="row mb-3">
-                        <div class="col-md-6">
+                      <div className="row mb-3">
+                        <div className="col-md-6">
 
-                          <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="auth-terms-condition-check" />
-                            <label class="form-check-label" for="auth-terms-condition-check">Remember Me</label>
+                          <div className="form-check">
+                            <input type="checkbox" className="form-check-input" id="auth-terms-condition-check" />
+                            <label className="form-check-label" for="auth-terms-condition-check">Remember Me</label>
                           </div>
 
                         </div>
 
-                        <div class="col-md-6 float-end">
-                          <div class="">
-                            {/* <!-- <label class="form-label text-primary" for="formname">Forgot password</label> --> */}
-                            {/* <a href="auth-recoverpw.html" class="text-muted">Forgot password?</a> */}
+                        <div className="col-md-6 float-end">
+                          <div className="">
+                            {/* <!-- <label className="form-label text-primary" for="formname">Forgot password</label> --> */}
+                            {/* <a href="auth-recoverpw.html" className="text-muted">Forgot password?</a> */}
                             <Link to="/password_reset" onClick={() => window.scrollTo(0, 0)}>Forgot password?</Link>
                           </div>
                         </div>
@@ -168,36 +168,36 @@ class PopLogin extends React.Component {
 
 
 
-                      <div class="mt-3 text-end">
-                        <button class="btn btn-primary w-sm waves-effect waves-light w-100" type="submit"
+                      <div className="mt-3 text-end">
+                        <button className="btn btn-primary w-sm waves-effect waves-light w-100" type="submit"
                           data-bs-dismiss="modal">Login</button>
                       </div>
 
-                      <div class="mt-3 text-center">
-                        <div class="signin-other-title">
-                          <h5 class="font-size-14 mb-3 title">Or you can Login using</h5>
+                      <div className="mt-3 text-center">
+                        <div className="signin-other-title">
+                          <h5 className="font-size-14 mb-3 title">Or you can Login using</h5>
                         </div>
 
 
-                        <ul class="list-inline">
-                          <li class="list-inline-item">
-                            <a href="javascript:void()" class="social-list-item bg-primary text-white border-primary">
-                              <i class="mdi mdi-facebook"></i>
+                        <ul className="list-inline">
+                          <li className="list-inline-item">
+                            <a href="javascript:void()" className="social-list-item bg-primary text-white border-primary">
+                              <i className="mdi mdi-facebook"></i>
                             </a>
                           </li>
-                          <li class="list-inline-item">
-                            <a href="javascript:void()" class="social-list-item bg-info text-white border-info">
-                              <i class="mdi mdi-twitter"></i>
+                          <li className="list-inline-item">
+                            <a href="javascript:void()" className="social-list-item bg-info text-white border-info">
+                              <i className="mdi mdi-twitter"></i>
                             </a>
                           </li>
-                          <li class="list-inline-item">
-                            <a href="javascript:void()" class="social-list-item bg-danger text-white border-danger">
-                              <i class="mdi mdi-google"></i>
+                          <li className="list-inline-item">
+                            <a href="javascript:void()" className="social-list-item bg-danger text-white border-danger">
+                              <i className="mdi mdi-google"></i>
                             </a>
                           </li>
-                          <li class="list-inline-item">
-                            <a href="javascript:void()" class="social-list-item bg-dark text-white border-dark">
-                              <i class="mdi mdi-apple"></i>
+                          <li className="list-inline-item">
+                            <a href="javascript:void()" className="social-list-item bg-dark text-white border-dark">
+                              <i className="mdi mdi-apple"></i>
                             </a>
                           </li>
                         </ul>

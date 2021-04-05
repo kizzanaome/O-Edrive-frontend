@@ -15,9 +15,9 @@ import PopLogin from '../common/PopLogin';
 class SignUp extends React.Component {
 
   state = {
-      WrongParking: '',
-      modal: false,
-      loginView: false
+    WrongParking: '',
+    modal: false,
+    loginView: false
   }
 
   onClickLogin = () => {
@@ -25,66 +25,66 @@ class SignUp extends React.Component {
       loginView: false
     }, () => {
 
-        this.setState({
-          loginView: <PopLogin />
-        }, () => {
-            $("#staticBackdrop").modal('show');
-        })
+      this.setState({
+        loginView: <PopLogin />
+      }, () => {
+        $("#staticBackdrop").modal('show');
+      })
     })
 
-}
+  }
 
   render() {
     return (
       <>
 
-        <div class="container">
-          <div class="row">
+        <div className="container">
+          <div className="row">
 
-            <div class="col-12 d-flex align-items-center justify-content-between">
+            <div className="col-12 d-flex align-items-center justify-content-between">
 
-              <img src={signupimg} alt="" class="auth-img" />
+              <img src={signupimg} alt="" className="auth-img" />
 
-              <div class="card no-shadow">
+              <div className="card no-shadow">
 
-                <div class="card-body">
+                <div className="card-body">
 
-                  <div class="text-center">
-                    <h4 class="auth-head mb-3">Sign Up to OikoExpress</h4>
-                    <p class="text-muted">Your first step to joining the largest online shop
+                  <div className="text-center">
+                    <h4 className="auth-head mb-3">Sign Up to OikoExpress</h4>
+                    <p className="text-muted">Your first step to joining the largest online shop
                   and your own pocket savings help...</p>
                   </div>
 
 
-                  <div class="">
+                  <div className="">
 
                     <form action="index.html">
 
-                      <div class="">
-                        <label class="form-label text-primary" for="formname">Account :</label>
+                      <div className="">
+                        <label className="form-label text-primary" for="formname">Account :</label>
                       </div>
 
-                      <div class="row mb-3">
-                        <div class="col-md-6">
-                          <div class="">
-                            <label class="visually-hidden" for="specificSizeInputGroupUsername">First Name</label>
-                            <div class="input-group">
-                              <div class="input-group-text">
-                                <img src={user} alt="" class="" />
+                      <div className="row mb-3">
+                        <div className="col-md-6">
+                          <div className="">
+                            <label className="visually-hidden" for="specificSizeInputGroupUsername">First Name</label>
+                            <div className="input-group">
+                              <div className="input-group-text">
+                                <img src={user} alt="" className="" />
                               </div>
-                              <input type="text" class="form-control" id="specificSizeInputGroupUsername"
+                              <input type="text" className="form-control" id="specificSizeInputGroupUsername"
                                 placeholder="First Name" />
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6">
-                          <div class="">
-                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Last Name</label>
-                            <div class="input-group">
-                              <div class="input-group-text">
-                                <img src={user} alt="" class="" />
+                        <div className="col-md-6">
+                          <div className="">
+                            <label className="visually-hidden" for="specificSizeInputGroupUsername">Last Name</label>
+                            <div className="input-group">
+                              <div className="input-group-text">
+                                <img src={user} alt="" className="" />
                               </div>
-                              <input type="text" class="form-control" id="specificSizeInputGroupUsername"
+                              <input type="text" className="form-control" id="specificSizeInputGroupUsername"
                                 placeholder="Last Name" />
                             </div>
                           </div>
@@ -92,39 +92,39 @@ class SignUp extends React.Component {
                       </div>
 
 
-                      <div class="mb-3">
-                        <label class="visually-hidden" for="specificSizeInputGroupUsername">Email Address</label>
-                        <div class="input-group">
-                          <div class="input-group-text">
-                            <img src={email} alt="" class="" />
+                      <div className="mb-3">
+                        <label className="visually-hidden" for="specificSizeInputGroupUsername">Email Address</label>
+                        <div className="input-group">
+                          <div className="input-group-text">
+                            <img src={email} alt="" className="" />
                           </div>
-                          <input type="text" class="form-control" id="specificSizeInputGroupUsername"
+                          <input type="text" className="form-control" id="specificSizeInputGroupUsername"
                             placeholder="Email Address" />
                         </div>
                       </div>
 
 
-                      <div class="row mb-3">
-                        <div class="col-md-6">
-                          <div class="">
-                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Password</label>
-                            <div class="input-group">
-                              <div class="input-group-text">
-                                <img src={password} alt="" class="" />
+                      <div className="row mb-3">
+                        <div className="col-md-6">
+                          <div className="">
+                            <label className="visually-hidden" for="specificSizeInputGroupUsername">Password</label>
+                            <div className="input-group">
+                              <div className="input-group-text">
+                                <img src={password} alt="" className="" />
                               </div>
-                              <input type="text" class="form-control" id="specificSizeInputGroupUsername"
+                              <input type="text" className="form-control" id="specificSizeInputGroupUsername"
                                 placeholder="Password" />
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6">
-                          <div class="">
-                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Re-Enter Password</label>
-                            <div class="input-group">
-                              <div class="input-group-text">
-                                <img src={password} alt="" class="" />
+                        <div className="col-md-6">
+                          <div className="">
+                            <label className="visually-hidden" for="specificSizeInputGroupUsername">Re-Enter Password</label>
+                            <div className="input-group">
+                              <div className="input-group-text">
+                                <img src={password} alt="" className="" />
                               </div>
-                              <input type="text" class="form-control" id="specificSizeInputGroupUsername"
+                              <input type="text" className="form-control" id="specificSizeInputGroupUsername"
                                 placeholder="Re-Enter Password" />
                             </div>
                           </div>
@@ -132,38 +132,38 @@ class SignUp extends React.Component {
                       </div>
 
 
-                      <div class="mb-4">
-                        <label class="visually-hidden" for="specificSizeInputGroupUsername">Phone Number</label>
-                        <div class="input-group">
-                          <div class="input-group-text">
-                            <img src={phone} alt="" class="" />
+                      <div className="mb-4">
+                        <label className="visually-hidden" for="specificSizeInputGroupUsername">Phone Number</label>
+                        <div className="input-group">
+                          <div className="input-group-text">
+                            <img src={phone} alt="" className="" />
                           </div>
-                          <input type="text" class="form-control" id="specificSizeInputGroupUsername"
+                          <input type="text" className="form-control" id="specificSizeInputGroupUsername"
                             placeholder="Phone Number" />
                         </div>
                       </div>
 
 
-                      <div class="row mb-3">
-                        <div class="col-md-6">
-                          <div class="">
-                            <label class="form-label text-primary" for="formname">Trade Role :</label>
+                      <div className="row mb-3">
+                        <div className="col-md-6">
+                          <div className="">
+                            <label className="form-label text-primary" for="formname">Trade Role :</label>
                           </div>
 
-                          <div class="row">
-                            <div class="col-md-6">
-                              <div class="form-check form-check-right">
-                                <input class="form-check-input" type="radio" name="formRadiosRight" id="formRadiosRight1"
+                          <div className="row">
+                            <div className="col-md-6">
+                              <div className="form-check form-check-right">
+                                <input className="form-check-input" type="radio" name="formRadiosRight" id="formRadiosRight1"
                                   checked />
-                                <label class="form-check-label" for="formRadiosRight1">
+                                <label className="form-check-label" for="formRadiosRight1">
                                   Buyer
                             </label>
                               </div>
                             </div>
-                            <div class="col-md-6">
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked />
-                                <label class="form-check-label" for="formRadios1">
+                            <div className="col-md-6">
+                              <div className="form-check">
+                                <input className="form-check-input" type="radio" name="formRadios" id="formRadios1" checked />
+                                <label className="form-check-label" for="formRadios1">
                                   Seller
                             </label>
                               </div>
@@ -173,26 +173,26 @@ class SignUp extends React.Component {
                         </div>
 
 
-                        <div class="col-md-6">
+                        <div className="col-md-6">
 
-                          <div class="">
-                            <label class="form-label text-primary" for="formname">Gender :</label>
+                          <div className="">
+                            <label className="form-label text-primary" for="formname">Gender :</label>
                           </div>
 
-                          <div class="row">
-                            <div class="col-md-6">
-                              <div class="form-check form-check-right">
-                                <input class="form-check-input" type="radio" name="formRadiosRight" id="formRadiosRight1"
+                          <div className="row">
+                            <div className="col-md-6">
+                              <div className="form-check form-check-right">
+                                <input className="form-check-input" type="radio" name="formRadiosRight" id="formRadiosRight1"
                                   checked />
-                                <label class="form-check-label" for="formRadiosRight1">
+                                <label className="form-check-label" for="formRadiosRight1">
                                   Male
                             </label>
                               </div>
                             </div>
-                            <div class="col-md-6">
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked />
-                                <label class="form-check-label" for="formRadios1">
+                            <div className="col-md-6">
+                              <div className="form-check">
+                                <input className="form-check-input" type="radio" name="formRadios" id="formRadios1" checked />
+                                <label className="form-check-label" for="formRadios1">
                                   Female
                             </label>
                               </div>
@@ -202,53 +202,53 @@ class SignUp extends React.Component {
                         </div>
                       </div>
 
-                      <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="auth-terms-condition-check" />
-                        <label class="form-check-label" for="auth-terms-condition-check">I accept <a
-                          href="javascript: void(0);" class="text-dark">Terms and
+                      <div className="form-check">
+                        <input type="checkbox" className="form-check-input" id="auth-terms-condition-check" />
+                        <label className="form-check-label" for="auth-terms-condition-check">I accept <a
+                          href="javascript: void(0);" className="text-dark">Terms and
                         Conditions</a></label>
                       </div>
 
 
 
-                      <div class="mt-3 text-end">
-                        <button class="btn btn-primary w-sm waves-effect waves-light w-100" type="submit">Register</button>
+                      <div className="mt-3 text-end">
+                        <button className="btn btn-primary w-sm waves-effect waves-light w-100" type="submit">Register</button>
                       </div>
 
-                      <div class="mt-3 text-center">
-                        <div class="signin-other-title">
-                          <h5 class="font-size-14 mb-3 title">Or you can Sign up using</h5>
+                      <div className="mt-3 text-center">
+                        <div className="signin-other-title">
+                          <h5 className="font-size-14 mb-3 title">Or you can Sign up using</h5>
                         </div>
 
 
-                        <ul class="list-inline">
-                          <li class="list-inline-item">
-                            <a href="javascript:void()" class="social-list-item bg-primary text-white border-primary">
-                              <i class="mdi mdi-facebook"></i>
+                        <ul className="list-inline">
+                          <li className="list-inline-item">
+                            <a href="javascript:void()" className="social-list-item bg-primary text-white border-primary">
+                              <i className="mdi mdi-facebook"></i>
                             </a>
                           </li>
-                          <li class="list-inline-item">
-                            <a href="javascript:void()" class="social-list-item bg-info text-white border-info">
-                              <i class="mdi mdi-twitter"></i>
+                          <li className="list-inline-item">
+                            <a href="javascript:void()" className="social-list-item bg-info text-white border-info">
+                              <i className="mdi mdi-twitter"></i>
                             </a>
                           </li>
-                          <li class="list-inline-item">
-                            <a href="javascript:void()" class="social-list-item bg-danger text-white border-danger">
-                              <i class="mdi mdi-google"></i>
+                          <li className="list-inline-item">
+                            <a href="javascript:void()" className="social-list-item bg-danger text-white border-danger">
+                              <i className="mdi mdi-google"></i>
                             </a>
                           </li>
-                          <li class="list-inline-item">
-                            <a href="javascript:void()" class="social-list-item bg-dark text-white border-dark">
-                              <i class="mdi mdi-apple"></i>
+                          <li className="list-inline-item">
+                            <a href="javascript:void()" className="social-list-item bg-dark text-white border-dark">
+                              <i className="mdi mdi-apple"></i>
                             </a>
                           </li>
                         </ul>
                       </div>
 
                       {/* <!-- Link trigger modal --> */}
-                      <div class="mt-3 text-center">
-                        <p class="text-muted mb-0">Already have an account ? <a data-bs-toggle="modal"
-                          data-bs-target="#staticBackdrop" onClick={() => this.onClickLogin()} class="fw-medium text-primary"> Login</a></p>
+                      <div className="mt-3 text-center">
+                        <p className="text-muted mb-0">Already have an account ? <a data-bs-toggle="modal"
+                          data-bs-target="#staticBackdrop" onClick={() => this.onClickLogin()} className="fw-medium text-primary"> Login</a></p>
                       </div>
 
                     </form>
@@ -265,75 +265,75 @@ class SignUp extends React.Component {
 
           {/* <!-- staticBackdrop Modal --> */}
 
-          
-          {/* <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+
+          {/* <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
             role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-              <div class="modal-content">
+            <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div className="modal-content">
 
 
-                <div class="modal-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                <div className="modal-header">
+                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close">
                   </button>
                 </div>
 
-                <div class="modal-body">
+                <div className="modal-body">
 
-                  <div class="card no-shadow w-50 m-auto">
+                  <div className="card no-shadow w-50 m-auto">
 
-                    <div class="card-body p-4">
+                    <div className="card-body p-4">
 
-                      <div class="text-center">
-                        <h4 class="auth-head mb-3">Login to OikoExpress</h4>
-                        <p class="text-muted mb-0">Don't have an account? Create your <br /><a data-bs-toggle="modal"
-                          data-bs-target="#staticBackdrop" class="fw-medium text-primary pointer"> New User Account</a></p>
+                      <div className="text-center">
+                        <h4 className="auth-head mb-3">Login to OikoExpress</h4>
+                        <p className="text-muted mb-0">Don't have an account? Create your <br /><a data-bs-toggle="modal"
+                          data-bs-target="#staticBackdrop" className="fw-medium text-primary pointer"> New User Account</a></p>
                       </div>
 
 
-                      <div class="p-2">
+                      <div className="p-2">
 
                         <form action="index.html">
 
-                          <div class="">
-                            <label class="form-label text-primary" for="formname">Account :</label>
+                          <div className="">
+                            <label className="form-label text-primary" for="formname">Account :</label>
                           </div>
 
 
-                          <div class="mb-3">
-                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Email Address</label>
-                            <div class="input-group">
-                              <div class="input-group-text">
-                                <img src="assets/images/icons/email.svg" alt="" class="" />
+                          <div className="mb-3">
+                            <label className="visually-hidden" for="specificSizeInputGroupUsername">Email Address</label>
+                            <div className="input-group">
+                              <div className="input-group-text">
+                                <img src="assets/images/icons/email.svg" alt="" className="" />
                               </div>
-                              <input type="text" class="form-control" id="specificSizeInputGroupUsername"
+                              <input type="text" className="form-control" id="specificSizeInputGroupUsername"
                                 placeholder="Email Address" />
                             </div>
                           </div>
 
 
-                          <div class="mb-4">
-                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Password</label>
-                            <div class="input-group">
-                              <div class="input-group-text">
-                                <img src={password} alt="" class="" />
+                          <div className="mb-4">
+                            <label className="visually-hidden" for="specificSizeInputGroupUsername">Password</label>
+                            <div className="input-group">
+                              <div className="input-group-text">
+                                <img src={password} alt="" className="" />
                               </div>
-                              <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Password" />
+                              <input type="text" className="form-control" id="specificSizeInputGroupUsername" placeholder="Password" />
                             </div>
                           </div>
 
 
-                          <div class="row mb-3">
-                            <div class="col-md-6">
+                          <div className="row mb-3">
+                            <div className="col-md-6">
 
-                              <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="auth-terms-condition-check" />
-                                <label class="form-check-label" for="auth-terms-condition-check">Remember Me</label>
+                              <div className="form-check">
+                                <input type="checkbox" className="form-check-input" id="auth-terms-condition-check" />
+                                <label className="form-check-label" for="auth-terms-condition-check">Remember Me</label>
                               </div>
 
                             </div>
 
-                            <div class="col-md-6 float-end">
-                              <div class="">
+                            <div className="col-md-6 float-end">
+                              <div className="">
                                 <Link to="/password_reset" onClick={() => window.scrollTo(0, 0)}>Forgot password?</Link>
                               </div>
                             </div>
@@ -342,36 +342,36 @@ class SignUp extends React.Component {
 
 
 
-                          <div class="mt-3 text-end">
-                            <button class="btn btn-primary w-sm waves-effect waves-light w-100" type="submit"
+                          <div className="mt-3 text-end">
+                            <button className="btn btn-primary w-sm waves-effect waves-light w-100" type="submit"
                               data-bs-dismiss="modal">Login</button>
                           </div>
 
-                          <div class="mt-3 text-center">
-                            <div class="signin-other-title">
-                              <h5 class="font-size-14 mb-3 title">Or you can Login using</h5>
+                          <div className="mt-3 text-center">
+                            <div className="signin-other-title">
+                              <h5 className="font-size-14 mb-3 title">Or you can Login using</h5>
                             </div>
 
 
-                            <ul class="list-inline">
-                              <li class="list-inline-item">
-                                <a href="javascript:void()" class="social-list-item bg-primary text-white border-primary">
-                                  <i class="mdi mdi-facebook"></i>
+                            <ul className="list-inline">
+                              <li className="list-inline-item">
+                                <a href="javascript:void()" className="social-list-item bg-primary text-white border-primary">
+                                  <i className="mdi mdi-facebook"></i>
                                 </a>
                               </li>
-                              <li class="list-inline-item">
-                                <a href="javascript:void()" class="social-list-item bg-info text-white border-info">
-                                  <i class="mdi mdi-twitter"></i>
+                              <li className="list-inline-item">
+                                <a href="javascript:void()" className="social-list-item bg-info text-white border-info">
+                                  <i className="mdi mdi-twitter"></i>
                                 </a>
                               </li>
-                              <li class="list-inline-item">
-                                <a href="javascript:void()" class="social-list-item bg-danger text-white border-danger">
-                                  <i class="mdi mdi-google"></i>
+                              <li className="list-inline-item">
+                                <a href="javascript:void()" className="social-list-item bg-danger text-white border-danger">
+                                  <i className="mdi mdi-google"></i>
                                 </a>
                               </li>
-                              <li class="list-inline-item">
-                                <a href="javascript:void()" class="social-list-item bg-dark text-white border-dark">
-                                  <i class="mdi mdi-apple"></i>
+                              <li className="list-inline-item">
+                                <a href="javascript:void()" className="social-list-item bg-dark text-white border-dark">
+                                  <i className="mdi mdi-apple"></i>
                                 </a>
                               </li>
                             </ul>
