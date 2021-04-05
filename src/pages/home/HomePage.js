@@ -9,6 +9,7 @@ import SliderSection from '../../components/body/SliderSection';
 import Body from '../../components/body/Body';
 import Banner from '../../components/body/Banner';
 import TitleSection from '../../components/body/TitleSection';
+import ProductView from '../../components/body/ProductView';
 
 
 const HomePage = () => (
@@ -19,6 +20,7 @@ const HomePage = () => (
     <SliderSection />
     <Banner />
     <TitleSection />
+    <ProductView />
     <Body />
     <Footer />
   </div>

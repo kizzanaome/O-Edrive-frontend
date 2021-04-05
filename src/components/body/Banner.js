@@ -12,9 +12,9 @@ class Banner extends React.Component {
     return (
       <div className="d-flex justify-content-between align-items-center banner">
         <div className="d-flex">
-          <img src={free} alt="" className="mr-5" />
+          <img src={free} alt="" className="" />
           <div className="descript">
-            <p className="bold_text">Free Shipping</p>
+            <p className="fw-bolder font-size-17">Free Shipping</p>
             <p className="text-muted">Just a few cents in your<br />
             pocket for the delivery...</p>
           </div>
@@ -25,7 +25,7 @@ class Banner extends React.Component {
         <div className="d-flex">
           <img src={save} alt="" className="" />
           <div className="descript">
-            <p className="bold_text">Saving More</p>
+            <p className="fw-bolder font-size-17">Saving More</p>
             <p className="text-muted">Cant get it wrong when<br />
             you want more...</p>
           </div>
@@ -36,7 +36,7 @@ class Banner extends React.Component {
         <div className="d-flex">
           <img src={delivery} alt="" className="" />
           <div className="descript">
-            <p className="bold_text">Quick Delivery</p>
+            <p className="fw-bolder font-size-17">Quick Delivery</p>
             <p className="text-muted">2 -3 days at your door...<br />
             just reaching you quick...</p>
           </div>
@@ -47,7 +47,7 @@ class Banner extends React.Component {
         <div className="d-flex">
           <img src={cash} alt="" className="" />
           <div className="descript">
-            <p className="bold_text">Money's Worth</p>
+            <p className="fw-bolder font-size-17">Money's Worth</p>
             <p className="text-muted">What you ask for is what<br />
             you get, what we give......</p>
           </div>

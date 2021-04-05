@@ -23,6 +23,10 @@ class TopNav extends React.Component {
 
           <div className="divider"></div>
 
+          <Link to="/">FAQs</Link>
+
+          <div className="divider"></div>
+
           <Link to="/auth/sign_up">Sign Up</Link>
         </div>
 
@@ -35,6 +39,16 @@ class TopNav extends React.Component {
             <Link to="/" className="left_link">English </Link>
             <i class="fas fa-caret-down"></i>
           </div>
+
+          <div className="divider"></div>
+
+          <div className="">
+            {/* <img src={ugflag} alt="logo" className="top_right_links_icons" /> */}
+            <Link to="/" className="left_link">USD </Link>
+            <i class="fas fa-caret-down"></i>
+          </div>
+
+          <div className="divider"></div>
 
           {/* dropdown */}
           <div class="dropdown d-inline-block">

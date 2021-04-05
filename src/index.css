@@ -47,14 +47,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* 
 .bold_text {
   font-weight: bolder;
-}
+} */
 
 p {
   margin: 0 !important;
   padding: 0 !important;
+}
+
+a {
   font-size: 15px !important;
 }
 

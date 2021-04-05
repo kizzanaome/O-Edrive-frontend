@@ -5,88 +5,12 @@
 .ads_advert {
   height: 75px !important;
   color: #000;
-  /* font-size: 17px !important; */
-  /* font-weight: 400 !important; */
-  width: 85% !important;
-  margin: 0 auto !important;
+  width: 60% !important;
 }
-
-/* .top_links { */
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-  /* margin: 0 auto; */
-/* } */
-
-/* .ads {
-  text-align: center;
-} */
-
-/* .bold_text,
-.ads_sub_link {
-  margin: 0 !important;
-} */
-
-
-
-/* .top_left_links_icons {
-  margin-left: 15px;
-} */
-
-/* .top_right_links_icons {
-  margin-right: 15px;
-}
-
-.top_left_links .policy_link,
-.top_right_links p {
-  transition: color 0.3s ease 0s;
-}
-
-.ads_sub_link {
-  color: #F34F51;
-  cursor: pointer;
-  transition: color 0.2s ease 0s;
-}
-
-.top_left_links .policy_link:hover,
-.top_right_links p:hover {
-  color: #F34F51;
-  cursor: pointer;
-  transition: color 0.2s ease 0s;
-}
-
-.top_right_links p:hover {
-  cursor: pointer;
-} */
-
-/* .top_left_links_icons a {
-  display: flex;
-  align-items: center;
-}
-
-.links_icons {
-  width: 17px;
-  height: 17px;
-}
-
-.links_icons .kiwi {
-  transition: color 0.5s ease 0s;
-}
-
-.links_icons:hover .kiwi {
-  fill: #F34F51;
-  transition: color 0.5s ease 0s;
-}
-
-.header .nav .btn:hover {
-  color: #F34F51;
-} */
 
 .ads_divider {
   height: 25px;
   width: 0.7px;
-  margin-right: 100px;
-  margin-left: 100px;
   background-color: #d6d6d6;
 }
 
@@ -104,4 +28,5 @@
     width: 2rem;
     height: 1.5rem;
   }
+  
 } */
