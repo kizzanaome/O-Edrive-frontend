@@ -5,8 +5,8 @@ import Footer from '../../shared/footer/Footer';
 import TopNav from '../../shared/navBar/TopNav';
 import BottomNav from '../../shared/navBar/BottomNav';
 
-import SliderSection from '../../components/body/slider/SliderSection';
-import Body from '../../components/body/text/Body';
+import SliderSection from '../../components/body/SliderSection';
+import Body from '../../components/body/Body';
 
 
 const HomePage = () => (

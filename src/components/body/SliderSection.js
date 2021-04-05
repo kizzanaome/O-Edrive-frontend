@@ -1,46 +1,53 @@
 import React from 'react';
-import '../../../assets/css/slider.css';
+import '../../assets/css/slider.css';
 
-import star from '../../../assets/images/slider/star.svg';
+import star from '../../assets/images/slider/star.svg';
 
 class SliderSection extends React.Component {
 
   render() {
     return (
-      <div className="section border border-danger">
+      <div className="section">
         <div className="card_video">
           <div className="card_1 custom-elevation-z2">
 
-            <a className="category_link" href="#">
+            {/* <a className="category_link" href="#">
               <img src={star} alt="star" width="20px" />
               <span className="text_link">Electronics and Mobile Phones</span>
+            </a> */}
+            <a className="category_link" href="#">
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-desktop mr-5"></i>
+              <span className="text_link ml-5">Computers and Laptops</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
-              <span className="text_link">Computers and Laptops</span>
-            </a>
-            <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-palette"></i>
               <span className="text_link">Arts and Crafts</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-utensils"></i>
               <span className="text_link">Food and Beverages</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-car"></i>
               <span className="text_link">Cars, Trucks, and Motorcycles</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="far fa-grin-stars"></i>
               <span className="text_link">Beauty and Personal Care</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-gem"></i>
               <span className="text_link">Watches and Jewelry</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-tshirt"></i>
               <span className="text_link">People Fashion</span>
             </a>
             {/* <a className="category_link" href="#">
@@ -56,37 +63,46 @@ class SliderSection extends React.Component {
               <span className="text_link">Boy's Fashion</span>
             </a> */}
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-faucet"></i>
               <span className="text_link">Home and Kitchen</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-tools"></i>
               <span className="text_link">Tools and Gardening</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="far fa-futbol"></i>
               <span className="text_link">Sports and Outdoors</span>
             </a>
             
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-globe-africa"></i>
               <span className="text_link">African Traditional Items</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fab fa-keybase"></i>
               <span className="text_link">Asian Traditional Items</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-gamepad"></i>
               <span className="text_link">Toys and Games</span>
             </a>
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              <i className="fas fa-magic"></i>
               <span className="text_link">Luxury Designer Goods</span>
             </a>
 
             <a className="category_link" href="#">
-              <img src={star} alt="star" width="20px" />
+              {/* <img src={star} alt="star" width="20px" /> */}
+              {/* <i className="fas fa-angle-right"></i> */}
+              <i className="fas fa-ellipsis-h"></i>
               <span className="text_link">More Categories</span>
             </a>
           </div>
@@ -140,6 +156,8 @@ class SliderSection extends React.Component {
               <span className="dot"></span>
             </div>
           </div>
+        
+          <div className="card_3 p-0 custom-elevation-z2"></div>
         </div>
         {/* <!-- <p style="font-size: 30px;margin: 70px 200px;">Since establishment, we have devoted our time and resources in
             understanding the startup scene of various African countries, thus focusing energies in creating maker

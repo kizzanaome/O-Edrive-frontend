@@ -1,5 +1,5 @@
 import React from 'react';
-import './body.css'
+import '../../assets/css/body.css'
 
 
 class Body extends React.Component {

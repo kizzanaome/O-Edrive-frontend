@@ -1,5 +1,6 @@
 import React from 'react';
-import $ from 'jquery';
+// import $ from 'jquery';
+// import 'bootstrap';
 
 import signupimg from '../../assets/images/buyer-signup/signup-images.svg';
 import user from '../../assets/images/icons/user.svg';
@@ -28,7 +29,7 @@ class SignUp extends React.Component {
       this.setState({
         loginView: <PopLogin />
       }, () => {
-        $("#staticBackdrop").modal('show');
+        window.$("#staticBackdrop").modal('show');
       })
     })
 
