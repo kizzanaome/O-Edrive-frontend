@@ -7,23 +7,20 @@ import BottomNav from '../../shared/navBar/BottomNav';
 
 import SliderSection from '../../components/body/SliderSection';
 import Body from '../../components/body/Body';
+import Banner from '../../components/body/Banner';
+import TitleSection from '../../components/body/TitleSection';
 
 
 const HomePage = () => (
   <div>
-    {/* <div className="main-content">
-
-      <div className="page-content">
-        <div className="container-fluid"> */}
     <TopNav />
     <Header />
     <BottomNav />
     <SliderSection />
+    <Banner />
+    <TitleSection />
     <Body />
     <Footer />
-    {/* </div>
-      </div>
-    </div> */}
   </div>
 );
 
