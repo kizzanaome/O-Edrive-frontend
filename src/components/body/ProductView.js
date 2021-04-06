@@ -14,7 +14,7 @@ class ProductView extends React.Component {
   render() {
     return (
       <div class="row product mx-auto">
-        <div class="col-xl-4 col-sm-6">
+        <div class="col-xl-3 col-sm-6">
           <div class="product-box">
             <div class="product-img pt-4 px-4">
               <div class="product-ribbon badge bg-warning">
@@ -53,7 +53,7 @@ class ProductView extends React.Component {
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-sm-6">
+        <div class="col-xl-2 col-sm-6">
           <div class="product-box">
             <div class="product-img pt-4 px-4">
               <div class="product-ribbon badge bg-danger">
@@ -92,7 +92,7 @@ class ProductView extends React.Component {
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-sm-6">
+        <div class="col-xl-2 col-sm-6">
           <div class="product-box">
             <div class="product-img pt-4 px-4">
 
@@ -129,7 +129,7 @@ class ProductView extends React.Component {
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-sm-6">
+        <div class="col-xl-2 col-sm-6">
           <div class="product-box">
             <div class="product-img pt-4 px-4">
 
@@ -163,7 +163,7 @@ class ProductView extends React.Component {
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-sm-6">
+        <div class="col-xl-2 col-sm-6">
           <div class="product-box">
             <div class="product-img pt-4 px-4">
 
@@ -200,7 +200,7 @@ class ProductView extends React.Component {
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-sm-6">
+        <div class="col-xl-2 col-sm-6">
           <div class="product-box">
             <div class="product-img pt-4 px-4">
               <div class="product-ribbon badge bg-danger">
